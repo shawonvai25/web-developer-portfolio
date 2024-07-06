@@ -176,3 +176,41 @@ main {
   text-align: center;
   margin: 50px auto;
 }
+/* footer styles */
+.footer {
+  background-color: #fff8f3;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.footer-column-title {
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+}
+.footer-column1 {
+  max-width: 562px;
+}
+.footer-column2 {
+  max-width: 461px;
+}
+footer input[type="text"],
+footer input[type="email"] {
+  display: block;
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  width: 100%;
+  padding: 10px 20px;
+  border: 0;
+  margin-bottom: 10px;
+}
+footer textarea {
+  display: block;
+  height: 145px;
+  border-radius: 5px;
+  background-color: white;
+  width: 100%;
+  padding: 10px 20px;
+  border: 0;
+}
